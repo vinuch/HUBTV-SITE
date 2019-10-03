@@ -1,0 +1,80 @@
+header .collapse {
+    background-color: #000;
+}
+.navbar {
+
+}
+
+.bg-black {
+    background-color: #000;
+}
+.navbar-brand img{
+    height: 90px;
+}
+
+li.active a {
+    color: #D31919 !important;
+}
+
+section.jumbotron {
+    border-radius: 0;
+    margin-top: 116px;
+    height: 80vh;
+    background: url("../imgs/header-img.jpg");
+    background-size: cover;
+    background-position: top;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.overlay {
+
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.39);
+    z-index: 1;
+}
+
+section.jumbotron .caption{
+    z-index: 2;
+    padding: 0 10vw;
+}
+
+.link-dark {
+    color: #000;
+}
+.link-dark:hover {
+    color: #D31919;
+    text-decoration: underline;
+}
+
+.link-red {
+    color: #000;
+}
+.link-red:hover {
+    color: #D31919;
+}
+
+.btn-red {
+    color: #ffffff;
+    background-color: #D31919;
+}
+
+.btn-outline-red {
+    color: #D31919;
+    border-color: #D31919;
+}
+
+.btn-outline-red:hover {
+    color: #ffffff;
+    background-color: #D31919;
+}
+
+
+footer {
+    padding: 2em;
+}
+
+footer a {
+    color: #D31919;
+}

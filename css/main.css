@@ -1,0 +1,182 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav > a {
+    margin-left: auto;
+    align-self: center;
+}
+
+.link-red {
+    color: #D31919;
+}
+
+.link-blue {
+    color: #0B339B;
+}
+
+.d-flex {
+    display: flex;
+}
+
+a.slide-active {
+    background-color: #fff;
+}
+
+a.slide-btn {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin: 3px;
+    padding: 4px;
+}
+
+nav {
+    background-color: #010101;
+    padding: 20px;
+}
+
+nav div {
+    flex-basis: 30%;
+}
+
+nav ul {
+    display: none;
+}
+
+nav i.fa {
+    color: #fff;
+    margin-left: auto;
+    align-self: center;
+    font-size: 2.5em;
+    padding: 0 25px;
+}
+
+section.carousel {
+    color: #fff;
+}
+
+section .overlay {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    display: inline-block;
+    background-color: #00000047;
+    left: 0;
+}
+
+
+section .carousel-item {
+    height: 300px;
+    position: relative;
+    background: url(../imgs/burna.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 30px;
+}
+
+section .carousel-item i.right {
+    position: absolute;
+    right: 10px;
+    top: 40%;
+}
+
+section .carousel-item i.left {
+    position: absolute;
+    left: 10px;
+    top: 40%;
+}
+
+section .label {
+    display: inline-block;
+    position: absolute;
+    top: 160px;
+}
+
+section .label h2{
+    margin: 8px 0;
+}
+section.music hr{
+    border-bottom: 3px solid;
+    width: 59px;
+    margin: 0;
+    margin-left: 74px;
+
+}
+
+section.music h2 {
+    text-align: center;
+    margin-bottom: 0;
+}
+section .label p{
+    padding: 10px;
+}
+
+section.music img{
+    width: 100%;
+}
+
+
+
+section.music  div.row1  {
+    flex-wrap: wrap;
+}
+
+section.music  div.row2  {
+    flex-wrap: wrap;
+}
+
+
+
+section.music  div.card {
+    box-shadow: 2px 4px 25px -9px;
+    padding: 10px;
+    margin: 10px 0;
+
+}
+
+section.music {
+    padding: 0 20px;
+    background-color: #fffef7;
+}
+
+section.music div.song-bio {
+    flex-basis: 456%;
+    padding: 0 20px;
+}
+
+
+section.music div.song-bio h3{
+    margin: 8px 0;
+}
+
+section.music div.song-bio p{
+    font-size: .8em;
+    margin: 8px 0;
+}
+
+.btn {
+    border: 2px solid black;
+    border-style: none;
+    background: none;
+}
+
+@media (max-wdith: 500px) {
+    section.music  div.row1{
+        background-color: red;
+    }
+
+}

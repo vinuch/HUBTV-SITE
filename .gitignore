@@ -1,0 +1,6 @@
+# Don't track content of these folders
+bootstrap-4.3.1-dist/
+css/fontawesome-free-5.11.2-web/
+old.html
+old2.html
+
